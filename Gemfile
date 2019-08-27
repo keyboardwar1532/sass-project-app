@@ -7,6 +7,7 @@ ruby '2.3.8'
 gem 'rails', '~> 5.2.3'
 gem 'jquery-rails'
 # Use Puma as the app server
+gem 'therubyracer'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -17,6 +18,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'devise'
 
 gem 'milia'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -66,5 +69,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :production do
   gem 'pg'
 end
-
-gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
